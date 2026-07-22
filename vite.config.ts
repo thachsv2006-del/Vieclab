@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/vieclab/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
